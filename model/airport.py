@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 
+#IMPORTANTISSIMO METTERE @dataclass sopra alla classe
+#ALTRIMENTI ERRORI INCOMPRENSIBILI
 @dataclass
 class Airport:
     ID: int
